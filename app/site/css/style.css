@@ -1,1 +1,124 @@
 /* Este es el estilo del toDo **/
+* {
+	font-size: 16px;
+	font-family: Tahoma, Verdana;
+
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: Arial;
+	font-weight: 100px;
+	color: #3d2a18;
+	letter-spacing: 1px;
+}
+a{
+	background-color: #e2591e;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-o-border-radius: 4px;
+	-ms-border-radius: 4px;
+	color: #FFF;
+	padding: 0.5em;
+	padding-left: 2.5em;
+	padding-right: 2.5em;
+	text-decoration: none;
+	font-size: 14px;
+	margin:1em;
+}
+a:hover{
+	background-color: #EA690A;
+}
+hr{
+	border: 1px dashed #DE5E00;
+}
+table{
+	margin-top: 1.5em;
+	background-color: #F8ECD2;
+	border-collapse:collapse; 
+	border: none;
+	margin-bottom: 1.5em;
+	margin-left: 1em;
+}
+th{
+	color: #FFF;
+	background-color:#3d2a18;
+	padding: 1em; 
+	font-weight: normal;
+}
+td{
+	border-bottom: 1px dashed #3d2a18;
+	padding: 0.6em;
+}
+body{
+	background-color: #FEC248;
+	border-top: 1em solid #e2591e;
+	width: 100%;
+	margin-top: 0px;
+	margin-left: 0px;
+}
+header{
+	width: 80%;
+	margin: 0 auto;
+	background-color: #F8ECD2;
+	margin-bottom: 0.5em;
+	margin-top: 0.2em;
+	height: 162px;
+	border-bottom: 0.5em solid #EA690A;
+	-webkit-box-shadow: 0 8px 6px -7px black;
+	-moz-box-shadow: 0 8px 6px -7px black;
+	box-shadow: 0 8px 6px -7px black;
+	-ms-box-shadow: 0 8px 6px -7px black;
+	border-radius: 3px;
+}
+header nav img{
+	margin-left: 1em;
+	margin-top: 1em;
+}
+header nav ul{
+	list-style: none;
+	display: inline-block;
+	margin-right: 0px;
+
+}
+header nav ul li{
+	display: inline-block;
+	background-color: #3D2A18;
+	color: #FFF;
+	padding: 1em;
+	margin-right: -4px;
+	font-family: Arial;
+}
+header nav ul li:hover{
+	background-color: #EA690A;
+	cursor: pointer;
+}
+section#content{
+	width: 78.5%;
+	margin: 0 auto;
+	background-color: #F8ECD2;
+	padding: 10px;
+	margin-bottom: 0.5em;
+	-webkit-box-shadow: 0 8px 6px -7px black;
+	-moz-box-shadow: 0 8px 6px -7px black;
+	box-shadow: 0 8px 6px -7px black;
+	-ms-box-shadow: 0 8px 6px -7px black;
+	border-radius: 3px;
+}
+footer{
+	-webkit-box-shadow: 0 8px 6px -7px black;
+	-moz-box-shadow: 0 8px 6px -7px black;
+	box-shadow: 0 8px 6px -7px black;
+	-ms-box-shadow: 0 8px 6px -7px black;
+	border-radius: 3px;
+}
+
+footer, strong, span{
+	width: 78.5%;
+	margin: 0 auto;
+	background-color: #F8ECD2;
+	padding: 10px;
+	text-align: center;
+	font-size: 11px;
+	font-family: Verdana;
+}
+

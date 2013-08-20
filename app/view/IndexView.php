@@ -26,10 +26,13 @@ class IndexView {
         foreach ($library as $key => $value) {
              $template = str_replace('{'.$key.'}', $value, $template);
         }
-        $template = str_replace('{clasejs}', 'app/site/js/Index.js', $template);
+        $template = str_replace('{clase_js}', 'app/site/js/Index.js', $template);
         $header = file_get_contents('app/site/header.html');
-        $template = str_replace('{header}', $header, $template); 
-        $template = str_replace('{content}', 'Este es el contenido', $template);
+        $menu = file_get_contents('app/site/menu_logo.html');
+        $header = str_replace('{header_content}', $menu, $header);
+        $template = str_replace('{header}', $header, $template);
+        $contenido = file_get_contents('app/site/contenido.html'); 
+        $template = str_replace('{content}', $contenido, $template);
         $footer = file_get_contents('app/site/footer.html');
         $template = str_replace('{footer}', $footer, $template);
         print($template);
